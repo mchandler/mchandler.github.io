@@ -1,0 +1,42 @@
+[
+  {
+    "question" : "In which Star Wars movie does Luke Skywalker lose a hand?",
+    "correctAnswer" : "Empire Strikes Back",
+    "answerKey" : ["Return of the Jedi", "Empire Strikes Back"]
+  },
+  {
+    "question" : "Who slices off Anakin's arm during a lightsaber duel?",
+    "correctAnswer" : "Count Dooku",
+    "answerKey" : ["Count Dooku", "Obi-Wan Kenobi"]
+  },
+  {
+    "question" : "What is the name of the Ewok who finds Leia?",
+    "correctAnswer" : "Wicket",
+    "answerKey" : ["Yubnub", "Wicket"]
+  },
+  {
+    "question" : "Who shot first? Han or Greedo?",
+    "correctAnswer" : "Han",
+    "answerKey" : ["Han", "Greedo"]
+  },
+  {
+    "question" : "In how many parsecs did the Millenium Falcon make the Kessel Run?",
+    "correctAnswer" : "12",
+    "answerKey" : ["8", "12"]
+  },
+  {
+    "question" : "What is the name of the forest moon that hosts the shield generator for the new Death Star?",
+    "correctAnswer" : "Endor",
+    "answerKey" : ["Sullust", "Endor"]
+  },
+  {
+    "question" : "What color is Luke's lightsaber in Return of the Jedi?",
+    "correctAnswer" : "Green",
+    "answerKey" : ["Green", "Blue"]
+  },
+  {
+    "question" : "Where does Darth Vader freeze Han Solo in carbonite?",
+    "correctAnswer" : "Cloud City",
+    "answerKey" : ["The Death Star", "Cloud City"]
+  }
+]
