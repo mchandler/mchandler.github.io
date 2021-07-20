@@ -1,0 +1,52 @@
+[
+  {
+    "question" : "Who is the very first Avenger?",
+    "correctAnswer" : "Captain America",
+    "answerKey" : ["Iron Man", "Captain America"]
+  },
+  {
+    "question" : "What planet is Thanos from?",
+    "correctAnswer" : "Titan",
+    "answerKey" : ["Titan", "Terra"]
+  },
+  {
+    "question" : "What is a derogatory term used for Rocket the Racoon?",
+    "correctAnswer" : "Trash Panda",
+    "answerKey" : ["Trash Panda", "Fur for Brains"]
+  },
+  {
+    "question" : "What artifact does Loki leverage in his attack on New York?",
+    "correctAnswer" : "The Tesseract",
+    "answerKey" : ["The Power Stone", "The Tesseract"]
+  },
+  {
+    "question" : "Who is responsible for creating Ultron?",
+    "correctAnswer" : "Tony Stark",
+    "answerKey" : ["Tony Stark", "Hydra"]
+  },
+  {
+    "question" : "Who is Gamora's adopted father?",
+    "correctAnswer" : "Thanos",
+    "answerKey" : ["Peter Quill", "Thanos"]
+  },
+  {
+    "question" : "The mystical location known as 'Knowhere' first appeared in which Marvel film?",
+    "correctAnswer" : "Thor: The Dark World",
+    "answerKey" : ["Thor: The Dark World", "Avengers: Infinity War"]
+  },
+  {
+    "question" : "Wanda Maximoff (Scarlet Witch) is from what country?",
+    "correctAnswer" : "Sokovia",
+    "answerKey" : ["Sokovia", "Romania"]
+  },
+  {
+    "question" : "Dr. Strange is the guardian of which Infinity Stone?",
+    "correctAnswer" : "Time Stone",
+    "answerKey" : ["Mind Stone", "Time Stone"]
+  },
+  {
+    "question" : "Loki is captured by what group after escaping in Avengers: Endgame?",
+    "correctAnswer" : "Time Variance Authority",
+    "answerKey" : ["Time Variance Authority", "Flag Smashers"]
+  }
+]
