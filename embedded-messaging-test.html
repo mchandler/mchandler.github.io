@@ -3,65 +3,252 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Messaging Test</title>
+    <title>Mike's Fake Window Store - Totally Not Real Windows</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
             background-color: #f5f5f5;
-        }
-        h1 {
             color: #333;
         }
-        .info-box {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
+        header {
+            background: linear-gradient(135deg, #1a5276, #2980b9);
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        .info-box h2 {
-            margin-top: 0;
-            color: #0070d2;
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
         }
-        code {
-            background-color: #f0f0f0;
-            padding: 2px 6px;
+        .logo span {
+            color: #f39c12;
+        }
+        .tagline {
+            font-size: 12px;
+            font-style: italic;
+            opacity: 0.8;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            font-weight: 500;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200') center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        .disclaimer {
+            background-color: #f39c12;
+            color: #333;
+            padding: 8px;
+            font-size: 14px;
+            display: inline-block;
             border-radius: 4px;
+            font-weight: bold;
+        }
+        .products {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .products h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #1a5276;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        .product-image {
+            height: 200px;
+            background: linear-gradient(135deg, #3498db, #1a5276);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 60px;
+        }
+        .product-info {
+            padding: 20px;
+        }
+        .product-info h3 {
+            color: #1a5276;
+            margin-bottom: 10px;
+        }
+        .product-info p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .fake-price {
+            margin-top: 15px;
+            font-size: 24px;
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .fake-price span {
+            font-size: 12px;
+            color: #999;
+            font-weight: normal;
+        }
+        .features {
+            background: #1a5276;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .features h2 {
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+        .feature-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .feature {
+            flex: 1;
+            min-width: 200px;
+            max-width: 250px;
+        }
+        .feature-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        footer p {
+            margin-bottom: 10px;
+        }
+        .footer-disclaimer {
+            color: #f39c12;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>Embedded Messaging Test Page</h1>
+    <header>
+        <div>
+            <div class="logo">Mike's <span>Fake</span> Window Store</div>
+            <div class="tagline">100% Imaginary Windows Since 2026</div>
+        </div>
+        <nav>
+            <a href="#">Windows</a>
+            <a href="#">Storm Doors</a>
+            <a href="#">Fake Deals</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
 
-    <div class="info-box">
-        <h2>Instructions</h2>
-        <p>This page is set up to test Salesforce Embedded Messaging for Web.</p>
-        <p>The chat button should appear in the bottom-right corner of the page.</p>
-    </div>
+    <section class="hero">
+        <h1>Windows So Fake, They're Transparent</h1>
+        <p>Welcome to the internet's premier destination for completely fictional windows and storm doors. None of our products exist!</p>
+        <div class="disclaimer">THIS IS A TEST STORE - NOTHING IS FOR SALE</div>
+    </section>
 
-    <div class="info-box">
-        <h2>Test Scenarios</h2>
-        <ul>
-            <li>Click the chat button to start a conversation</li>
-            <li>Test pre-chat form (if configured)</li>
-            <li>Test bot interaction</li>
-            <li>Test agent transfer</li>
-            <li>Test file attachments (if enabled)</li>
-        </ul>
-    </div>
+    <section class="products">
+        <h2>Our Imaginary Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">&#128422;</div>
+                <div class="product-info">
+                    <h3>The Invisible Double-Hung</h3>
+                    <p>Our most popular window that doesn't exist! Features make-believe energy efficiency and pretend noise reduction. Available in colors we haven't invented yet.</p>
+                    <div class="fake-price">$999.99 <span>(Monopoly money accepted)</span></div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">&#127850;</div>
+                <div class="product-info">
+                    <h3>Storm Door Deluxe 3000</h3>
+                    <p>This storm door is so fictional, even storms don't believe in it. Comes with an imaginary screen and a warranty written in disappearing ink.</p>
+                    <div class="fake-price">$1,299.99 <span>(Exposure bucks welcome)</span></div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">&#9728;</div>
+                <div class="product-info">
+                    <h3>The Casement of Dreams</h3>
+                    <p>Crank open this window to let in fresh air from an alternate dimension. Warning: May attract unicorns. Not responsible for glitter damage.</p>
+                    <div class="fake-price">$749.99 <span>(Bitcoin from 2045 OK)</span></div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">&#10052;</div>
+                <div class="product-info">
+                    <h3>Patio Door to Nowhere</h3>
+                    <p>Slide open this door to access your backyard (backyard not included). Features triple-pane imaginary glass and a lock that's purely theoretical.</p>
+                    <div class="fake-price">$2,499.99 <span>(Good vibes = currency)</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="info-box">
-        <h2>Setup Checklist</h2>
-        <ul>
-            <li>Add <code>https://mchandler.github.io</code> to CORS Allowlist in Salesforce Setup</li>
-            <li>Add scrt2 domain to CSP Trusted Sites if needed</li>
-            <li>Ensure Messaging Channel is active</li>
-            <li>Have an agent available in Omni-Channel (for transfer testing)</li>
-        </ul>
-    </div>
+    <section class="features">
+        <h2>Why Choose Fake Windows?</h2>
+        <div class="feature-grid">
+            <div class="feature">
+                <div class="feature-icon">&#128173;</div>
+                <h3>Zero Installation</h3>
+                <p>Since our products don't exist, there's nothing to install!</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">&#128176;</div>
+                <h3>Infinite Savings</h3>
+                <p>You can't spend money on things that aren't real!</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">&#129300;</div>
+                <h3>Imaginary Support</h3>
+                <p>Our support team exists! Click the chat button to talk to a real human.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-disclaimer">THIS IS A FAKE TEST STORE FOR DEMONSTRATION PURPOSES ONLY</p>
+        <p>No actual products are sold here. This page exists solely to test Salesforce Embedded Messaging.</p>
+        <p>&copy; 2026 Mike's Fake Window Store - A Figment of Your Imagination</p>
+    </footer>
 
     <!--
     =====================================================
