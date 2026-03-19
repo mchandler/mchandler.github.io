@@ -257,24 +257,24 @@
     -->
 
     <script type='text/javascript'>
-        function initEmbeddedMessaging() {
-            try {
-                embeddedservice_bootstrap.settings.language = 'en_US';
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
-                embeddedservice_bootstrap.init(
-                    '00DWr000008SpuD',
-                    'Service_Parts_Store_Web_Chat',
-                    'https://andersen--ecommpilot.sandbox.my.site.com/ESWServicePartsStoreHe1768503332756',
-                    {
-                        scrt2URL: 'https://andersen--ecommpilot.sandbox.my.salesforce-scrt.com'
-                    }
-                );
-            } catch (err) {
-                console.error('Error loading Embedded Messaging: ', err);
-            }
-        };
-    </script>
-    <script type='text/javascript' src='https://andersen--ecommpilot.sandbox.my.site.com/ESWServicePartsStoreHe1768503332756/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+			embeddedservice_bootstrap.init(
+				'00D30000000163D',
+				'Service_Parts_Store_Web_Chat',
+				'https://helpcenter.andersenwindows.com/ESWServicePartsStoreWe1773785276677',
+				{
+					scrt2URL: 'https://andersen.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://helpcenter.andersenwindows.com/ESWServicePartsStoreWe1773785276677/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
 </body>
 </html>
