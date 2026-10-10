@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Workstream Privacy Policy</title>
+<meta name="description" content="How YouTube Workstream accesses, uses, and stores Google and YouTube data.">
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --link: #1a5fd0; --rule: #e3e3e3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151515; --fg: #ececec; --muted: #a0a0a0; --link: #7aa7ff; --rule: #333333; }
+  }
+  body { background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 32px 0 8px; }
+  p.lede { color: var(--muted); margin-top: 0; }
+  a { color: var(--link); overflow-wrap: anywhere; }
+  footer { border-top: 1px solid var(--rule); margin-top: 48px; padding-top: 16px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="lede">YouTube Workstream &middot; Last updated October 10, 2026</p>
+
+  <p>YouTube Workstream ("the app") is a tool that runs on the creator's own computer to prepare
+    videos and upload them privately to the creator's own YouTube channel. This policy explains
+    what Google and YouTube data the app accesses and what it does with that data.</p>
+
+  <h2>Data the app accesses</h2>
+  <p>When you sign in with Google, the app requests these permissions for your YouTube account:</p>
+  <ul>
+    <li><strong>Upload videos</strong> (<code>youtube.upload</code>): to upload your video files.</li>
+    <li><strong>Manage your YouTube account</strong> (<code>youtube</code>): to identify your
+      channel, list your existing playlists, and add uploaded videos to them.</li>
+    <li><strong>Manage captions</strong> (<code>youtube.force-ssl</code>): to upload a caption
+      track for a video you uploaded.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <ul>
+    <li>Your data is used only to perform the actions you ask for: uploading your video as
+      Private, setting its title, description, and tags, adding it to playlists you already
+      have, and uploading its captions.</li>
+    <li>The app does not publish, schedule, or delete videos, and does not create playlists.</li>
+    <li>The app does not sell your data, use it for advertising, or share it with anyone.</li>
+  </ul>
+
+  <h2>Where data is stored</h2>
+  <ul>
+    <li>The OAuth sign-in token is stored only on your computer, in the app's local
+      <code>secrets</code> folder. It is never sent to the developer or any other server
+      except Google's.</li>
+    <li>Transcripts, titles, descriptions, and other outputs are saved only on your computer, in
+      a folder next to your video.</li>
+    <li>The developer runs no server and receives none of your data.</li>
+  </ul>
+
+  <h2>Third-party services</h2>
+  <p>The app sends data directly to Google's YouTube Data API to perform uploads. If you choose to
+    generate text with an AI provider (such as Anthropic or OpenAI) using your own API key, video
+    transcript text is sent to that provider under its own terms. Google user data obtained
+    through the YouTube API is not sent to AI providers.</p>
+  <p>By using the app you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of
+    Service</a>. Google's handling of your data is described in the
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>The app's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API
+    Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Revoking access and deleting data</h2>
+  <ul>
+    <li>You can revoke the app's access at any time at
+      <a href="https://myaccount.google.com/permissions">https://myaccount.google.com/permissions</a>,
+      or through YouTube's
+      <a href="https://security.google.com/settings/security/permissions">security settings</a>.</li>
+    <li>Deleting the app's <code>secrets/token.json</code> file removes the stored sign-in from
+      your computer. Deleting a video's output folder removes its generated files.</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="https://github.com/mchandler">github.com/mchandler</a>.</p>
+
+  <footer>
+    <a href="./">YouTube Workstream</a> &middot;
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> &middot;
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>

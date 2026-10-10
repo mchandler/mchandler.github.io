@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YouTube Workstream</title>
+<meta name="description" content="A personal tool that prepares and privately uploads videos to the creator's own YouTube channel.">
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #5f6368; --link: #1a5fd0; --rule: #e3e3e3; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #151515; --fg: #ececec; --muted: #a0a0a0; --link: #7aa7ff; --rule: #333333; }
+  }
+  body { background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 32px 0 8px; }
+  p.lede { color: var(--muted); margin-top: 0; }
+  a { color: var(--link); }
+  footer { border-top: 1px solid var(--rule); margin-top: 48px; padding-top: 16px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>YouTube Workstream</h1>
+  <p class="lede">A personal post-production tool for a creator's own YouTube channel.</p>
+
+  <h2>What it does</h2>
+  <p>After a video is finished, YouTube Workstream runs on the creator's own computer to:</p>
+  <ul>
+    <li>transcribe the video locally, with timestamps</li>
+    <li>suggest titles and thumbnail text</li>
+    <li>write a video description with chapter markers</li>
+    <li>upload the video to the creator's own channel as <strong>Private</strong>, add it to the
+      creator's existing playlists, and attach captions</li>
+  </ul>
+  <p>It never publishes or schedules videos. The creator reviews everything and publishes
+    manually in YouTube Studio.</p>
+
+  <h2>Google and YouTube access</h2>
+  <p>The tool signs in to the creator's YouTube account through Google OAuth so it can upload
+    videos, read the channel's playlists, add videos to them, and upload captions. Sign-in
+    credentials are stored only on the creator's computer. See the
+    <a href="privacy.html">Privacy Policy</a> for details.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> &middot;
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> &middot;
+    <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
